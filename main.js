@@ -21,4 +21,4 @@ function upozorni() {
 }
 
 
-/*zkouška GIT HUB*/
+/*zkouška č. 2 GIT HUB*/
