@@ -19,3 +19,6 @@ function secti(a, b) {
 function upozorni() {
   alert("Gratulace, právě jsi spustila tuto funkci!");
 }
+
+
+/*zkouška GIT HUB*/
