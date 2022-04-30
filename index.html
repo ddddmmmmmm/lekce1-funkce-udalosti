@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Promenné a funkce</title>
 	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 	<h1>Funkce a události</h1>
@@ -18,6 +20,18 @@
 		Moje tlačítko
 	</button>
 
+	<button onclick="upravBarvu('.ctverecek')">
+		Uprav barvu čtverečku
+	</button>
+
+
+
+
+
+	<button onclick="zobrazVysledek('.ctverecek', 40, 50);zobrazVysledek('#vysledek', 40, 50);">
+		Zobraz výsledek
+	</button>
+
 	<div class="napoveda">
 		<h2>Zadání domácího úkolu</h2>
 
@@ -27,7 +41,8 @@
 			<li>Uprav funkci <em>upozorni()</em> tak, aby se navíc vypisoval text i do konzole a také nahradil text v elementu <strong>Čtvereček</strong>.</li>
 		</ul>
 	</div>
-	
+
 	<script type="text/javascript" src="main.js"></script>
 </body>
+
 </html>
